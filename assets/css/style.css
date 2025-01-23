@@ -1847,9 +1847,11 @@ iframe{
     padding-left: 60px;
   }
 
-  .timeline ul li time {
-    transform: translate(-50%, -50%);
-    left: 0;
+  .timeline ul li div {
+    width: 80%; /* Increase the width to fit more in mobile view */
+    margin-left: 10%; /* Center the content */
+    font-size: 14px; /* Decrease font size */
+    padding: 15px 20px; /* Adjust padding */
   }
 
   .timeline .section-title h2 {
@@ -1858,6 +1860,11 @@ iframe{
 
   .timeline .section-title p {
     font-size: 16px;
+  }
+   /* Adjust time indicators */
+   .timeline ul li time {
+    font-size: 16px;
+    padding: 8px 12px;
   }
 }
 
@@ -1870,9 +1877,16 @@ iframe{
     padding-left: 50px;
   }
 
+  .timeline ul li div {
+    width: 90%; /* Reduce width even more for small screens */
+    margin-left: 5%; /* Center content */
+    font-size: 12px; /* Further reduce font size */
+    padding: 12px 15px; /* Adjust padding */
+  }
+
   .timeline ul li time {
-    transform: translate(-50%, -50%);
-    left: 0;
+    font-size: 14px;
+    padding: 8px 10px;
   }
 
   .timeline .section-title h2 {
@@ -1962,3 +1976,5 @@ iframe{
   color: #fff; 
   text-decoration: underline; 
 }
+
+  
