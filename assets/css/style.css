@@ -528,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #ed502e;
+  background: black;
 }
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
