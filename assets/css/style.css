@@ -1994,3 +1994,28 @@ iframe{
      justify-items: center;
      box-shadow: #008e74 5px 5px 5px 5px;
 }
+
+.social-links {
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #004182;
+}
+
+.photo img {
+  width: 150px;         /* or any fixed size like 100% if container is square */
+  height: 150px;        /* same as width to keep it round */
+  object-fit: cover;    /* to crop and center the image nicely */
+  border-radius: 50%;   /* makes it circular */
+  display: block;
+  margin-left: 10px;
+}
+
+
